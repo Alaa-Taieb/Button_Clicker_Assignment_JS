@@ -1,0 +1,118 @@
+/* GLOBAL */
+/* Universal Selector : Reset default browser settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body Selector */
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/* Main Container */
+.container{
+    width: 70%;
+    height: 100vh;
+}
+
+
+/* Header */
+.header{
+    background-color: #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header > input{
+    width: 50%;
+    height: 30px;
+    border: 3px solid black;
+    padding: 0 5px;
+}
+
+.header > h1{
+    font-size: 3rem;
+}
+
+.header > button{
+    height: 30px;
+    background-color: #2B78E4;
+    border: 3px solid black;
+    color: #fff;
+    padding: 0 10px;
+    box-shadow: 3px 3px black;
+    gap: 20px;
+}
+
+/* Main */
+
+.main{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Main Left Side */
+.main_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+}
+
+.main_left > section {
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section_left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.section_left > button {
+    background-color: #FFD966;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+/* Main Right Side */
+.main_right{
+    flex: 1;
+}
+
+.main_right > section{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.main_right > section > h2 > span {
+    font-weight: bold;
+}
+
+.main_right > section > button {
+    background-color: #93C47D;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
